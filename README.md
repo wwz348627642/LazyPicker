@@ -26,7 +26,7 @@ var picker = new LazyPicker('.date-picker');
 LazyPicker构造函数可设置第二个参数，为配置对象，可设参数说明：
 ```
 theme: ,    // 主题  green（墨绿） | black（纯黑）
-initDate: ,  // 设置初始年月日，格式YYYY-MM-DD或YYYY/MM/DD
+initValue: ,  // 设置初始年月日，格式YYYY-MM-DD或YYYY/MM/DD
 minDate: ,    // 设置最小年份，默认是1950
 maxDate: ,   // 设置最大年份，默认是初始年份 + 20，如果initDate和maxDate同时存在，年份以maxDate为主。
 onChange: function(data) {  // 监听选择时间改变
